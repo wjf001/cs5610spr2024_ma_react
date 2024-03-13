@@ -1,0 +1,19 @@
+.box {
+    width: 100px;
+    height: 100px;
+    border: 1px solid grey;
+    background-color: white;
+    
+  }
+  
+  .selected {
+    background-color: black;
+  }
+  
+  .container {
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 50% 50%;
+    height: 200px;
+    width: 200px
+  }
